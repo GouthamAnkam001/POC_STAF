@@ -1,0 +1,19 @@
+2023-07-11 11:54:54,808:20:====== WebDriver manager ======
+2023-07-11 11:54:56,334:20:Get LATEST chromedriver version for google-chrome
+2023-07-11 11:54:56,340:10:Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2023-07-11 11:54:57,060:10:https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_114.0.5735 HTTP/1.1" 200 13
+2023-07-11 11:54:57,065:20:About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_win32.zip
+2023-07-11 11:54:57,069:10:Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2023-07-11 11:54:57,291:10:https://chromedriver.storage.googleapis.com:443 "GET /114.0.5735.90/chromedriver_win32.zip HTTP/1.1" 200 6603303
+2023-07-11 11:54:58,487:20:Driver has been saved in cache [C:\Users\GANMAHES\.wdm\drivers\chromedriver\win32\114.0.5735.90]
+2023-07-11 11:54:58,963:10:Started executable: `C:\Users\GANMAHES\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe` in a child process with pid: 23812
+2023-07-11 11:54:59,473:10:POST http://localhost:56282/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+2023-07-11 11:54:59,473:10:Starting new HTTP connection (1): localhost:56282
+2023-07-11 11:55:01,676:10:http://localhost:56282 "POST /session HTTP/1.1" 200 0
+2023-07-11 11:55:01,677:10:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"114.0.5735.199","chrome":{"chromedriverVersion":"114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})","userDataDir":"C:\\Windows\\SystemTemp\\scoped_dir23812_1122558072"},"goog:chromeOptions":{"debuggerAddress":"localhost:56286"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"d96a60848c1ff32b974afb304d0dcbed"}} | headers=HTTPHeaderDict({'Content-Length': '846', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-07-11 11:55:01,678:10:Finished Request
+2023-07-11 11:55:01,679:10:POST http://localhost:56282/session/d96a60848c1ff32b974afb304d0dcbed/timeouts {"implicit": 10000}
+2023-07-11 11:55:01,681:10:http://localhost:56282 "POST /session/d96a60848c1ff32b974afb304d0dcbed/timeouts HTTP/1.1" 200 0
+2023-07-11 11:55:01,682:10:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-07-11 11:55:01,682:10:Finished Request
+2023-07-11 11:55:01,682:20:Driver created Successfully

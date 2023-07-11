@@ -1,0 +1,22 @@
+2023-07-11 11:56:17,878:20:====== WebDriver manager ======
+2023-07-11 11:56:19,354:20:Driver [C:\Users\GANMAHES\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+2023-07-11 11:56:19,519:10:Started executable: `C:\Users\GANMAHES\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe` in a child process with pid: 18976
+2023-07-11 11:56:20,033:10:POST http://localhost:56363/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+2023-07-11 11:56:20,035:10:Starting new HTTP connection (1): localhost:56363
+2023-07-11 11:56:22,667:10:http://localhost:56363 "POST /session HTTP/1.1" 200 0
+2023-07-11 11:56:22,667:10:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"114.0.5735.199","chrome":{"chromedriverVersion":"114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})","userDataDir":"C:\\Windows\\SystemTemp\\scoped_dir18976_751369355"},"goog:chromeOptions":{"debuggerAddress":"localhost:56366"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"9dd60e220b06d5bfe064ad04bfb03ad6"}} | headers=HTTPHeaderDict({'Content-Length': '845', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-07-11 11:56:22,667:10:Finished Request
+2023-07-11 11:56:22,668:10:POST http://localhost:56363/session/9dd60e220b06d5bfe064ad04bfb03ad6/timeouts {"implicit": 10000}
+2023-07-11 11:56:22,671:10:http://localhost:56363 "POST /session/9dd60e220b06d5bfe064ad04bfb03ad6/timeouts HTTP/1.1" 200 0
+2023-07-11 11:56:22,672:10:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-07-11 11:56:22,672:10:Finished Request
+2023-07-11 11:56:22,672:20:Driver created Successfully
+2023-07-11 11:56:22,679:10:POST http://localhost:56363/session/9dd60e220b06d5bfe064ad04bfb03ad6/url {"url": "https://rahulshettyacademy.com/AutomationPractice/"}
+2023-07-11 11:56:26,646:10:http://localhost:56363 "POST /session/9dd60e220b06d5bfe064ad04bfb03ad6/url HTTP/1.1" 200 0
+2023-07-11 11:56:26,647:10:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-07-11 11:56:26,648:10:Finished Request
+2023-07-11 11:56:28,661:20:website is opened
+2023-07-11 11:56:28,663:10:POST http://localhost:56363/session/9dd60e220b06d5bfe064ad04bfb03ad6/window/maximize {}
+2023-07-11 11:56:28,788:10:http://localhost:56363 "POST /session/9dd60e220b06d5bfe064ad04bfb03ad6/window/maximize HTTP/1.1" 200 0
+2023-07-11 11:56:28,788:10:Remote response: status=200 | data={"value":{"height":696,"width":1296,"x":-8,"y":-8}} | headers=HTTPHeaderDict({'Content-Length': '51', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-07-11 11:56:28,788:10:Finished Request

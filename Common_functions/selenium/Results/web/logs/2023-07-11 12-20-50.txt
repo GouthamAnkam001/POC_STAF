@@ -1,0 +1,40 @@
+2023-07-11 12:20:50,603:20:====== WebDriver manager ======
+2023-07-11 12:20:52,042:20:Driver [C:\Users\GANMAHES\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+2023-07-11 12:20:52,179:10:Started executable: `C:\Users\GANMAHES\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe` in a child process with pid: 19572
+2023-07-11 12:20:52,701:10:POST http://localhost:57202/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+2023-07-11 12:20:52,712:10:Starting new HTTP connection (1): localhost:57202
+2023-07-11 12:20:54,768:10:http://localhost:57202 "POST /session HTTP/1.1" 200 0
+2023-07-11 12:20:54,769:10:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"114.0.5735.199","chrome":{"chromedriverVersion":"114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})","userDataDir":"C:\\Windows\\SystemTemp\\scoped_dir19572_967311982"},"goog:chromeOptions":{"debuggerAddress":"localhost:57206"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"a647500b59a03f31ed6315c9ec5b149a"}} | headers=HTTPHeaderDict({'Content-Length': '845', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-07-11 12:20:54,769:10:Finished Request
+2023-07-11 12:20:54,769:10:POST http://localhost:57202/session/a647500b59a03f31ed6315c9ec5b149a/timeouts {"implicit": 10000}
+2023-07-11 12:20:54,771:10:http://localhost:57202 "POST /session/a647500b59a03f31ed6315c9ec5b149a/timeouts HTTP/1.1" 200 0
+2023-07-11 12:20:54,771:10:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-07-11 12:20:54,771:10:Finished Request
+2023-07-11 12:20:54,771:20:Driver created Successfully
+2023-07-11 12:20:54,777:10:POST http://localhost:57202/session/a647500b59a03f31ed6315c9ec5b149a/url {"url": "https://rahulshettyacademy.com/AutomationPractice/"}
+2023-07-11 12:20:57,776:10:http://localhost:57202 "POST /session/a647500b59a03f31ed6315c9ec5b149a/url HTTP/1.1" 200 0
+2023-07-11 12:20:57,776:10:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-07-11 12:20:57,776:10:Finished Request
+2023-07-11 12:20:59,780:20:website is opened
+2023-07-11 12:20:59,783:10:POST http://localhost:57202/session/a647500b59a03f31ed6315c9ec5b149a/window/maximize {}
+2023-07-11 12:20:59,907:10:http://localhost:57202 "POST /session/a647500b59a03f31ed6315c9ec5b149a/window/maximize HTTP/1.1" 200 0
+2023-07-11 12:20:59,907:10:Remote response: status=200 | data={"value":{"height":696,"width":1296,"x":-8,"y":-8}} | headers=HTTPHeaderDict({'Content-Length': '51', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-07-11 12:20:59,908:10:Finished Request
+2023-07-11 12:21:04,931:10:POST http://localhost:57202/session/a647500b59a03f31ed6315c9ec5b149a/element {"using": "xpath", "value": "//*[@id=\"radio-btn-example\"]/fieldset/label[2]/input"}
+2023-07-11 12:21:04,943:10:http://localhost:57202 "POST /session/a647500b59a03f31ed6315c9ec5b149a/element HTTP/1.1" 200 0
+2023-07-11 12:21:04,943:10:Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"38E86C62D99BC4E36F9B094646952ABA_element_43"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-07-11 12:21:04,944:10:Finished Request
+2023-07-11 12:21:04,944:10:POST http://localhost:57202/session/a647500b59a03f31ed6315c9ec5b149a/element/38E86C62D99BC4E36F9B094646952ABA_element_43/click {"id": "38E86C62D99BC4E36F9B094646952ABA_element_43"}
+2023-07-11 12:21:04,992:10:http://localhost:57202 "POST /session/a647500b59a03f31ed6315c9ec5b149a/element/38E86C62D99BC4E36F9B094646952ABA_element_43/click HTTP/1.1" 200 0
+2023-07-11 12:21:04,992:10:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-07-11 12:21:04,992:10:Finished Request
+2023-07-11 12:21:07,999:20:clicked on element
+2023-07-11 12:21:11,030:10:POST http://localhost:57202/session/a647500b59a03f31ed6315c9ec5b149a/element {"using": "xpath", "value": "//input[@id='autocomplete']"}
+2023-07-11 12:21:11,061:10:http://localhost:57202 "POST /session/a647500b59a03f31ed6315c9ec5b149a/element HTTP/1.1" 200 0
+2023-07-11 12:21:11,061:10:Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"38E86C62D99BC4E36F9B094646952ABA_element_44"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-07-11 12:21:11,062:10:Finished Request
+2023-07-11 12:21:11,062:10:POST http://localhost:57202/session/a647500b59a03f31ed6315c9ec5b149a/element/38E86C62D99BC4E36F9B094646952ABA_element_44/value {"text": "india", "value": ["i", "n", "d", "i", "a"], "id": "38E86C62D99BC4E36F9B094646952ABA_element_44"}
+2023-07-11 12:21:11,209:10:http://localhost:57202 "POST /session/a647500b59a03f31ed6315c9ec5b149a/element/38E86C62D99BC4E36F9B094646952ABA_element_44/value HTTP/1.1" 200 0
+2023-07-11 12:21:11,209:10:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-07-11 12:21:11,209:10:Finished Request
+2023-07-11 12:21:14,222:20:Text entered
